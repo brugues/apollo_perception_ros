@@ -28,7 +28,7 @@ The system is tested on Nvidia GeForce GTX 1080 Ti and 1070 Max-Q. Please instal
 
 | **Dependencies**                  	| Image Environment  	|
 |-----------------------------------	|--------------------	|
-| Nvidia Driver (Tested on 384.130) 	| Ubuntu 14.04       	|
+| Nvidia Driver (Tested on 384.130) 	| Ubuntu 16.04       	|
 | Nvidia Docker (Tested on 2)       	| Cuda 8.0 + Cudnn 7 	|
 
 ## Building and Running
@@ -55,8 +55,9 @@ source devel/setup.bash
 ```roslaunch vehicle_base detect_sim.launch```
 
 6. Playback Demo-2.0.bag from Apollo  
-```rosbag play demo-2.0.bag --clock```  
-The bag can be downloaded at [Apollo Data Open Platform](http://data.apollo.auto), Vehicle System Demo Data, with file name ```demo-sensor-data-apollo-2.0.tar.gz```.
+```rosbag play ./demos/apollo_2.0_camera_sample.bag --clock --loop```
+The demo can be found in [Apollo 2.0.0 release](https://github.com/ApolloAuto/apollo/releases), under the Apollo 2.0.0 release
+
 
 ## Known issues
 1. During building process, an error such as follows might occur. Usually do ```catkin build``` again can skip the problem. I am still trying to figure out how to complete solve it. Let me know if you find out a solution.
