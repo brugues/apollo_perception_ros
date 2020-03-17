@@ -63,3 +63,4 @@ CATKIN_IGNORE
 # vscode config
 **/.vscode/
 .DS_Store
+*.bag

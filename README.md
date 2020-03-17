@@ -24,12 +24,13 @@ I myself find learning Apollo's approach in perception very beneficial to helpin
 **All contributions are welcome!!** There are so many things that can be improved. Please raise issues and/or make pull requests if you would like to work on it too. Thank you.
 
 ## Environment Information
-The system is tested on Nvidia GeForce GTX 1080 Ti and 1070 Max-Q. Please install **Nvidia Driver**, [**Docker**](https://docs.docker.com/install/linux/docker-ce/ubuntu/), and [**Nvidia Docker**](https://github.com/NVIDIA/nvidia-docker).
+The system is tested on Nvidia Quadro M3000M. Please install **Nvidia Driver**, [**Docker**](https://docs.docker.com/install/linux/docker-ce/ubuntu/), and [**Nvidia Docker**](https://github.com/NVIDIA/nvidia-docker).
 
 | **Dependencies**                  	| Image Environment  	|
 |-----------------------------------	|--------------------	|
 | Nvidia Driver (Tested on 384.130) 	| Ubuntu 16.04       	|
 | Nvidia Docker (Tested on 2)       	| Cuda 8.0 + Cudnn 7 	|
+| ROS Version                         | Indigo              |
 
 ## Building and Running
 1. Clone Repository in Host
